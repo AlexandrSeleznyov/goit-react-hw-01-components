@@ -21,3 +21,10 @@
   border-radius: 5px;
   box-shadow: 2px 2px 5px #000000;
 }
+.status_red {
+  background-color: red;
+}
+
+.status_green {
+  background-color: green;
+}
