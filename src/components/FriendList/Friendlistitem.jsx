@@ -6,7 +6,8 @@ export default function FriendListItem({ avatar, name, isOnline }) {
     <li className={s.item}>
       <span
         className={`${s.status} ${isOnline ? s.status_red : s.status_green}`}
-      ></span>
+      />
+
       <img src={avatar} alt={name} width="48" />
       <p>{name}</p>
     </li>
